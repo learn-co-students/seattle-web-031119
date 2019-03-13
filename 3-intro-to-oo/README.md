@@ -31,6 +31,11 @@ bank_account = {"owner_name": "niky", "balance": 100}
 Write an implementation of a bank account that meets the following requirements:
 
 - .whale should return the account with the largest balance
+  - an array of all accounts
+  - examine each one, iterate through comparing balance
+  - return the account object for the one with the highest balance
 - .overdraw_warning should return all accounts under min balance of 300
+  - an array of all accounts
+  - use select to find all accounts with balance under 300
 - #deposit should increase an account balance by a specific amount
 - #withdraw should decrease an account balance by a specific amount

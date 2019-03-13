@@ -19,6 +19,10 @@ class BankAccount
     @balance += deposit_amount
   end
 
+  def withdraw(withdraw_amount)
+    @balance -= withdraw_amount
+  end
+
   # #reader or getter
   # def balance
   #   @balance + 50
