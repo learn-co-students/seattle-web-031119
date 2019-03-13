@@ -3,12 +3,20 @@
 ## Objectives
 
 - Define `object` in programming domain
+  - has built in methods
+  - attached information/variables stored on it
 - Create a class and instantiate an instance of the class
+  - a class is a type of object
+  - a blueprint for creating objects
 - Explain the difference between a class and an instance
+  - an instance is an object created from a blueprint
 - Pass arguments to `new` by defining an initialize method in class
 - Create instance methods
+  - Define attribute readers and writers using `attr_` macros
+  - setter, getter methods for instance variables
+  - try to use instance variables only in initialize and setter/getter
 - Discuss methods as messages
-- Define attribute readers and writers using `attr_` macros
+  - getter method is actually a method called `balance=`
 - Get more practice with array compositions (`each`, `map`, `select`/`filter`)
 - Explain the need for variable scope and why it's important to not utilize global variables
 
