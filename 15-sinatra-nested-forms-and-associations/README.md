@@ -62,3 +62,5 @@
  ## Resources
  1. Writing a migration to rename column and change column type: http://codkal.com/how-rename-database-column-rails-5-migration/
  2. HTML form elements: https://www.w3schools.com/html/html_form_elements.asp
+ 
+ If you want a diff view of just the things I changed during the course of the lecture, you can find it at https://github.com/learn-co-students/seattle-web-031119/commit/617909f920447661439340c327d73e374a1981a6
