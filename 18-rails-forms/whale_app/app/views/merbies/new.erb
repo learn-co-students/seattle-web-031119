@@ -1,0 +1,11 @@
+<%= form_for @merby do |f| %>
+  <%= f.label "Name" %>
+  <%= f.text_field :name %>
+  <%= f.label "Species" %>
+  <%= f.text_field :species %>
+  <%= f.label "Kill Count" %>
+  <%= f.number_field :kill_count %>
+  <%= f.label "Length" %>
+  <%= f.number_field :length %>
+  <%= f.submit "Create Merby" %>
+<% end %>

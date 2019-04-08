@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  peg_leg: false
+  kill_count: 1
+
+two:
+  name: MyString
+  peg_leg: false
+  kill_count: 1

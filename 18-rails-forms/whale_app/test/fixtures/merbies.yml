@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  species: MyString
+  kill_count: 1
+  length: 1
+  alive: false
+
+two:
+  species: MyString
+  kill_count: 1
+  length: 1
+  alive: false
