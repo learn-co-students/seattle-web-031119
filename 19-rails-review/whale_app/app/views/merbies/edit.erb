@@ -1,0 +1,7 @@
+<%= form_tag ("/merbies/#{@merby.id}"), method: "PATCH" do %>
+  <%= label_tag "Kills"%>
+  <%= text_field_tag "merby[kill_count]" %> <br>
+  <%= label_tag "Length"%>
+  <%= text_field_tag "merby[length]" %><br>
+  <%= submit_tag "Edit Merby" %>
+<% end %>

@@ -1,0 +1,2 @@
+class Merby < ApplicationRecord
+end
