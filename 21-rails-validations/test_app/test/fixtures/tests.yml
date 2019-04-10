@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  student_first_name: MyString
+  student_last_name: MyString
+  grade: 1
+  minutes_taken: 1
+
+two:
+  student_first_name: MyString
+  student_last_name: MyString
+  grade: 1
+  minutes_taken: 1
