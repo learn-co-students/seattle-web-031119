@@ -1,0 +1,6 @@
+<p> <%= @book.title %> </p>
+<p> <%= @book.snippet %> </p>
+
+<% @authors.each do |author| %>
+    <p> <%= author.name %> </p>
+<% end %>
