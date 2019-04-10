@@ -1,0 +1,20 @@
+<% if @errors %>
+  <% @errors.each do |error| %>
+    <%= error %><br>
+    <% end %>
+<% end %>
+
+<%= form_for @pencil do |p| %>
+<%= p.label :owner_name %>
+<%= p.text_field :owner_name %>
+<%= p.label :lead_size %>
+<%= p.number_field :lead_size , :step => 0.01%>
+<%= p.label :color %>
+<%= p.text_field :color %>
+<%= p.label "Favorite : "%>
+<%= p.label "Yes" %>
+<%= p.radio_button :favorite, true, :checked => true %>
+<%= p.label "No" %>
+<%= p.radio_button :favorite, false, :checked => false %>
+<%= p.submit %>
+<% end %>
