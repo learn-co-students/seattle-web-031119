@@ -1,9 +1,0 @@
-<%= form_for @book do |f| %>
-  <%= f.label "Title" %>
-  <%= f.text_field :title %>
-  <%= f.label "Snippet" %>
-  <%= f.text_field :snippet %>
-  <%= f.label "Author" %>
-  <%= f.collection_check_box(:author_id, Author.all , :id, :id) %>
-  <%= f.submit%>
-<% end %>
