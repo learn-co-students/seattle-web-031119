@@ -1,0 +1,9 @@
+<h2>Brew Show Page</h2>
+
+<h3>Customers who enjoyed this brew:</h3>
+
+<ul>
+  <% @customers.each do |c| %>
+    <li><%= c.name %></li>
+  <% end %>
+</ul>

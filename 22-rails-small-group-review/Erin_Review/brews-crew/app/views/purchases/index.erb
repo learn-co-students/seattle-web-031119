@@ -1,0 +1,9 @@
+<h1>Purchases Index</h1>
+
+<table>
+  <% @purchases.each do |p| %>
+    <tr>
+      <td><%= link_to "Purchase \##{p.id}", p %></td>
+    </tr>
+  <% end %>
+</table>

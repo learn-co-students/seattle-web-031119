@@ -1,0 +1,16 @@
+<%= form_for @purchase do |f| %>
+  <%= f.label :brews %>
+  <br>
+  <%= f.collection_check_boxes :brew_ids, Brew.all, :id, :blend_name %>
+  <br>
+  <%= f.collection_select :customer_id, Customer.all, :id, :name, include_blank: "Choose a customer" %>
+  <br>
+  <%= f.label :price %>
+  <%= f.number_field :price %>
+  <br>
+  <!-- Note: I added this label and field after the review session ended -->
+  <%= f.label :size %>
+  <%= f.text_field :size %>
+  <br>
+  <%= f.submit %>
+<% end %>

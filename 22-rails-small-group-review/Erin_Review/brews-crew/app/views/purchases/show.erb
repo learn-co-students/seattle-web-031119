@@ -1,0 +1,7 @@
+<h2>Purchase Number <%= @purchase.id %></h2>
+
+<ol>
+  <% @brews.each do |b| %>
+    <li><%= link_to b.blend_name, b %></li>
+  <% end %>
+</ol>
