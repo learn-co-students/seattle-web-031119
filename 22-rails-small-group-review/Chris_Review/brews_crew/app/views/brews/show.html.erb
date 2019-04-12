@@ -1,0 +1,7 @@
+<h1><%= @brew.blend_name %></h1>
+
+<ul>
+<% @purchases.each do |p| %>
+    <li><%= p.customer_name %></li>
+<% end %>
+</ul>
