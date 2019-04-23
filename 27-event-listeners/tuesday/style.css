@@ -1,0 +1,17 @@
+body {
+  background-color: maroon;
+}
+
+.low-priority {
+  color: green;
+}
+
+.med-priority {
+  color: yellow;
+}
+
+.high-priority {
+  color: purple;
+  font-size: xx-large;
+  text-decoration: underline;
+}
