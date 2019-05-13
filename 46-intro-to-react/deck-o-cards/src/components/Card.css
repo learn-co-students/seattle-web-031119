@@ -1,0 +1,29 @@
+.card {
+  display: inline-block;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 5px;
+  height: 80px;
+  width: 50px;
+  position: relative;
+}
+
+.top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bot-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
+}
