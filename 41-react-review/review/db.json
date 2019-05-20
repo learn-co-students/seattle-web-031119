@@ -1,0 +1,28 @@
+{
+  "aliens": [
+    {
+      "id": 2,
+      "species": "human2",
+      "homeplanet": "mars",
+      "image_url": "https://cdn.cnn.com/cnnnext/dam/assets/160725131446-graham-car-crash-evolved-human-full-169.jpeg"
+    },
+    {
+      "id": 1,
+      "species": "human",
+      "homeplanet": "earth",
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/EIaA9hV8En1Pi65.wn5Xkw--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/http://media.zenfs.com/en-US/homerun/news.mashable/8c9cf3989f954151d6ab14f00dbf50bb"
+    },
+    {
+      "id": 3,
+      "species": "martians",
+      "homeplanet": "mars",
+      "image_url": "https://images.vice.com/vice/images/articles/meta/2016/11/20/mars-attacks-was-the-disaster-movie-that-ravaged-disaster-movies-1479668255.jpg?crop=1xw%3A0.9989754098360656xh%3Bcenter%2Ccenter&resize=650%3A*&output-quality=55"
+    },
+    {
+      "id": 4,
+      "species": "ø∆˙¬©ƒ˚¨¥©¬øƒ∂∞ƒ†¥¨©¬ˆ˙˚…",
+      "homeplanet": "kneepknop",
+      "image_url": "http://en.es-static.us/upl/2016/01/alien-waving-sq-e1453397357310.jpg"
+    }
+  ]
+}
