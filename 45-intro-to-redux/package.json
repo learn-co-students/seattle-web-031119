@@ -1,0 +1,23 @@
+{
+  "name": "redux-bank-account",
+  "version": "1.0.0",
+  "description": "Simple bank account cli using Redux for state management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AspenJames/redux-bank-account.git"
+  },
+  "author": "Aspen James",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/AspenJames/redux-bank-account/issues"
+  },
+  "homepage": "https://github.com/AspenJames/redux-bank-account#readme",
+  "dependencies": {
+    "keypress": "^0.2.1",
+    "redux": "^4.0.1"
+  }
+}
