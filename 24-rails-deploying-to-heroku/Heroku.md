@@ -22,3 +22,5 @@
 - In terminal run `heroku run rake db:migrate`
 - In terminal run `heroku open`
 
+## To rename your app
+- In terminal run `heroku apps:rename "newname"`
